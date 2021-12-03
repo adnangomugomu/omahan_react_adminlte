@@ -2,12 +2,19 @@ import React, { Component } from 'react'
 
 import Header from "./Header";
 import Footer from "./Footer";
+import Dasboard from '../utility/Util';
 
 export default class Main extends Component {
     render() {
 
-        function page() {
-            return this.page;
+        function getPage(page) {
+            switch (page) {
+                case 'dashboard':
+                    return <Dasboard />;
+                    break;
+                default:
+                    break;
+            }
         }
 
         return (
@@ -16,7 +23,9 @@ export default class Main extends Component {
                 <div className="wrapper">
                     <div className="content-wrapper">
                         <section className="content">
-                            {page()}
+                            {
+                                getPage(this.props.page)
+                            }
                         </section>
                     </div>
                     <Footer />

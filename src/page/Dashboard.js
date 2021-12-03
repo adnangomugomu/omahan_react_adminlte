@@ -14,6 +14,11 @@ export default class Dashboard extends Component {
                 </div>
                 <div className="box-body">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, assumenda hic nam rem laudantium sunt quos doloremque nostrum unde voluptatum dolorem tenetur pariatur quasi? Velit beatae excepturi quisquam perferendis iusto.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, assumenda hic nam rem laudantium sunt quos doloremque nostrum unde voluptatum dolorem tenetur pariatur quasi? Velit beatae excepturi quisquam perferendis iusto.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, assumenda hic nam rem laudantium sunt quos doloremque nostrum unde voluptatum dolorem tenetur pariatur quasi? Velit beatae excepturi quisquam perferendis iusto.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, assumenda hic nam rem laudantium sunt quos doloremque nostrum unde voluptatum dolorem tenetur pariatur quasi? Velit beatae excepturi quisquam perferendis iusto.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, assumenda hic nam rem laudantium sunt quos doloremque nostrum unde voluptatum dolorem tenetur pariatur quasi? Velit beatae excepturi quisquam perferendis iusto.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, assumenda hic nam rem laudantium sunt quos doloremque nostrum unde voluptatum dolorem tenetur pariatur quasi? Velit beatae excepturi quisquam perferendis iusto.
                 </div>
             </div>
         )
