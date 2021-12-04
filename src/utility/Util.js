@@ -1,3 +1,7 @@
 import Dashboard from "../page/Dashboard";
+const URL = "http://localhost/api/react_latihan/";
 
-export default  Dashboard ;
+export {
+    Dashboard,
+    URL,
+}

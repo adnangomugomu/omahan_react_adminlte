@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import Header from "./Header";
 import Footer from "./Footer";
-import Dasboard from '../utility/Util';
+import { Dashboard } from '../utility/Util';
 
 export default class Main extends Component {
     render() {
@@ -10,7 +10,7 @@ export default class Main extends Component {
         function getPage(page) {
             switch (page) {
                 case 'dashboard':
-                    return <Dasboard />;
+                    return <Dashboard />;
                     break;
                 default:
                     break;
